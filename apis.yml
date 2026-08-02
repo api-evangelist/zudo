@@ -1,7 +1,12 @@
 aid: zudo
 name: Zudo
-description: Zudo is a company surfaced as a portfolio company of kindred-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zudo builds AI-powered agents purpose-built for the warranty industry, automating
+  customer service and back-office operations for home warranty, auto warranty, and OEM
+  third-party administrators. Its agents (Adam for customer service, Emma for operations)
+  handle claim follow-ups, initiations, and authorizations around the clock to improve
+  warranty customer experience and operating margins. Surfaced as a portfolio company of
+  Kindred Ventures and added to the API Evangelist network; the public site is marketing-only
+  with no developer/API surface published at enrichment time.
 url: https://raw.githubusercontent.com/api-evangelist/zudo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - kindred-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://zudo.work/images/logo/on-light.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Warranty
+- Customer Service
+- Customer Experience
+- Automation
+- Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zudo-domain-security.yml
 - type: Website
   url: https://zudo.work/
+- type: SignUp
+  url: https://zudo.work/signin
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
